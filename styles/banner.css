@@ -1,0 +1,7 @@
+@import "common.css";
+
+.banner{
+    background-color: var(--banner-overlay);
+    height: 75vh;
+    text-align: center;
+}

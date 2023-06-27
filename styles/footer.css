@@ -1,0 +1,17 @@
+@import "common.css";
+
+.footer{
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 40px;
+    font-size: 1rem;
+}
+
+.footer__text{
+    font-style: italic;
+}
+
+.footer__brand{
+    font-style: normal;
+}
