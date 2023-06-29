@@ -17,13 +17,13 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 2;
+    background-color:var(--black);
 }
 
 .main{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
-    background-color:var(--black);
     color: var(--white);
 }
 
