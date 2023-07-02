@@ -1,10 +1,4 @@
-:root{
-    --black: #000;
-    --white: #fff;
-    --main-brand-color: #e50914;
-    --main-brand-color-light: #e44e54;
-    font-family: sans-serif;
-}
+@import url("variables.css");
 
 /***** RESET ******/
 html {
@@ -20,7 +14,7 @@ body {
     background-color:var(--black);
 }
 
-.main{
+.main_container{
     width: 100vw;
     height: 100vh;
     overflow: hidden;
@@ -29,4 +23,12 @@ body {
 
 .no--margin{
     margin: 0;
+}
+
+.no--underline{
+    text-decoration: none;
+}
+
+.hidden{
+    display: none;
 }

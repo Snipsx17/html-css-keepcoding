@@ -1,9 +1,11 @@
-@import "common.css";
+@import url("variables.css");
 
 .banner{
     height: 75vh;
+    overflow: hidden;
     text-align: center;
     position: relative;
+    color: var(--white);
 }
 
 .banner__content{

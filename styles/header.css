@@ -1,0 +1,26 @@
+@import url("variables.css");
+
+.header{
+    position: sticky;
+    background-color: var(--black);
+    top: 0;
+    z-index: 2;
+}
+
+.header__logo{
+    max-width: 15rem;
+}
+
+.header__logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.header__nav__item{
+    list-style: none;
+}
+
+.header__nav__item a{
+    text-decoration: none;
+    
+}

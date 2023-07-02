@@ -1,0 +1,9 @@
+@import url("variables.css");
+
+.btn{
+    color: var(--white);
+    background-color: var(--main-brand-color);
+    padding: 1rem;
+    border-radius: .5rem;
+    border: 1px solid var(--main-brand-color);
+}
