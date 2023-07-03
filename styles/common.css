@@ -12,6 +12,7 @@ body {
     font-size: 1.6rem;
     line-height: 2;
     background-color:var(--black);
+    color: var(--white);
 }
 
 .main_container{
@@ -29,6 +30,6 @@ body {
     text-decoration: none;
 }
 
-.hidden{
+.hidden--xs{
     display: none;
 }

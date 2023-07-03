@@ -5,10 +5,14 @@
     background-color: var(--black);
     top: 0;
     z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
 }
 
 .header__logo{
-    max-width: 15rem;
+    max-width: 12rem;
 }
 
 .header__logo img{

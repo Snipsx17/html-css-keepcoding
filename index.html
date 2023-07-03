@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="styles/banner.css" />
     <link rel="stylesheet" type="text/css" href="styles/header.css" />
     <link rel="stylesheet" type="text/css" href="styles/componets.css" />
+    <link rel="stylesheet" type="text/css" href="styles/info.css" />
     <title>Codeflix</title>
   </head>
   <body class="main__container">
@@ -19,7 +20,7 @@
       </div>
       <nav class="header__nav">
         <ul>
-          <li class="header__nav__item no--underline">
+          <li class="header__nav__item no--underline hidden--xs">
             <a class="btn" href="#shows">all shows</a>
           </li>
           <li class="header__nav__item no--underline">
@@ -41,6 +42,25 @@
         </div>
       </section>
       <!--FIN BANNER-->
+
+      <section class="info">
+        <!-- texto -->
+        <div class="info__text">
+          <h2>watch everywhere</h2>
+          <p>
+            Stream unlimited movies and TV shows on your, phone, tablet, laptop,
+            and TV.
+          </p>
+        </div>
+        <!-- video -->
+        <div class="info__video">
+          <img src="assets/app/device-pile.png" alt="video image" />
+          <video src="assets/app/video-devices.m4v" muted autoplay loop>
+            <source src="assets/app/video-devices.m4v" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+      <!--FIN INFO-->
     </main>
 
     <footer class="footer">
