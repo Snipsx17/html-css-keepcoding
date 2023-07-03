@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 .header__logo{
@@ -20,6 +20,12 @@
     height: 100%;
 }
 
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .header__nav__item{
     list-style: none;
 }
@@ -27,4 +33,10 @@
 .header__nav__item a{
     text-decoration: none;
     
+}
+
+@media(min-width: 768px){
+    .header__logo{
+        max-width: 20rem;
+    }
 }
