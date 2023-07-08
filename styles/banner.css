@@ -1,16 +1,23 @@
 @import url("variables.css");
 
 .banner{
-    height: 75vh;
+    height: 65vh;
     overflow: hidden;
     text-align: center;
     position: relative;
     color: var(--white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .banner__content{
     position: relative;
     z-index: 1;
+}
+
+.banner__content > h1{
+    line-height: 1;
 }
 
 .banner__image{

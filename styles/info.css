@@ -29,11 +29,11 @@
   
   @media(min-width: 768px){
     .info .info__video img{
-      width: 380px;
+      width: 450px;
     }
 
     .info .info__video video{
-      width: 240px;
+      width: 280px;
     }
   }
 
