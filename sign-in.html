@@ -7,77 +7,71 @@
     <link rel="stylesheet" href="styles/variables.css" />
     <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/componets.css" />
+    <link rel="stylesheet" href="styles/sign-in.css" />
     <title>Sign in | codeflix</title>
   </head>
-  <body class="main__container">
-    <div>
+  <body>
+    <div class="form__box">
       <h1>Sign in</h1>
       <form class="form" action="registro.html" method="POST">
         <div class="form__element">
-          <label class="form__label" for="email">Email</label class="form__label">
-          <input
-            type="email"
-            id="email"
-            placeholder="add your email"
-            name="email"
-          />
-        </div>
-        <div class="form__element">
-          <label class="form__label" for="age">Age</label class="form__label">
-          <input
-            type="text"
-            id="age"
-            name="age"
-          />
+          <label class="form__label" for="email">Email</label>
+          <input class="form__input" type="email" id="email" name="email" />
         </div>
         <div class="form__element">
           <label class="form__label" for="password">password</label>
-          <input type="password" name="password" />
+          <input class="form__input" type="password" name="password" />
         </div>
         <div class="form__element">
-            <label class="form__label" for="phone">Phone</label>
-            <input type="tel" name="phone" />
-          </div>
+          <label class="form__label" for="phone">enter your phone</label>
+          <input class="form__input" type="tel" name="phone" />
+        </div>
         <div class="form__element">
-          <label class="form__label" for="file">Chose a file</label>
+          <label class="form__label" for="file">Chose a profile picture</label>
           <input
+            class=""
             type="file"
             name="file"
             id="file"
             accept="image/png, image/jpeg"
           />
         </div>
-        <fieldset class="form__element">
-          <legend>Categoria favorita</legend>
+        <fieldset class="">
+          <h4>Fav genere</h4>
           <label for="show">Show</label>
           <input type="radio" id="show" name="category" value="show" checked />
           <label for="docus">Docus</label>
           <input type="radio" id="docus" name="category" value="docue" />
         </fieldset>
         <div class="form__element">
-          <label for="bio">Bio</label>
+          <label class="form__label" for="bio">user bio</label>
           <textarea
+            class="form__input no--resize"
             name="bio"
             id="bio"
             cols="30"
             rows="10"
-            placeholder="Add your bio"
           ></textarea>
         </div>
-        <div class="form__element">
-          <input type="checkbox" id="remenber" name="remenber" />
+        <div>
+          <input
+            class="form__input"
+            type="checkbox"
+            id="remenber"
+            name="remenber"
+          />
           <label for="remenber">Remenber me</label>
         </div>
         <div class="form__element">
           <label for="country">Country</label>
-          <select name="country" id="country">
+          <select class="form__input" name="country" id="country">
             <option value="">- Select Country -</option>
             <option value="esp">Espa;a</option>
             <option value="us">USA</option>
           </select>
         </div>
-        <div class="form__element">
-          <button class="btn" type="reset">Reset</button>
+        <div>
+          <button class="btn btn__secondary" type="reset">Reset</button>
           <input class="btn" type="submit" value="Sign in" />
         </div>
       </form>

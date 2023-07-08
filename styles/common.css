@@ -30,6 +30,10 @@ body {
     text-decoration: none;
 }
 
+.no--resize{
+    resize: none;
+}
+
 .hidden--xs{
     display: none;
 }

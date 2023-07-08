@@ -11,6 +11,14 @@
     text-transform: uppercase;
 }
 
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn__secondary{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid var(--white);
+}
 .form__element{
     display: flex;
     flex-direction: column;
@@ -18,9 +26,18 @@
 }
 
 .form__label{
-    margin-bottom: .5rem;
+    margin-bottom: .8rem;
     font-size: 1.5rem;
     font-weight: 400;
+    text-transform: capitalize;
+}
+
+.form__input{
+    padding: 1.2rem 1rem;
+    border-radius: .5rem;
+    background-color:rgb(83, 90, 91);
+    border: none;
+    color: var(--white);
 }
 
 /* RESPONSIVE */
