@@ -1,0 +1,34 @@
+.shows{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.series h2{
+    text-transform: capitalize;
+}
+
+.shows__list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0;
+}
+
+.shows__list li img{
+    width: 100%;
+}
+
+.shows__list figure{
+    margin: 0;
+}
+
+.shows__list figcaption{
+    text-transform: capitalize;
+}
+
+@media(min-width: 768px){
+    .shows__list{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

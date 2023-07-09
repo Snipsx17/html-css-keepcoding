@@ -11,12 +11,21 @@
     <link rel="stylesheet" type="text/css" href="styles/header.css" />
     <link rel="stylesheet" type="text/css" href="styles/componets.css" />
     <link rel="stylesheet" type="text/css" href="styles/info.css" />
+    <link rel="stylesheet" type="text/css" href="styles/shows.css" />
+    <meta property="og:title" content="Codeflix" />
+    <meta property="og:description" content="Codeflix website description" />
+    <meta
+      property="og:image"
+      content="https://github.com/Snipsx17/html-css-keepcoding/blob/main/assets/app/catalog.jpg?raw=true"
+    />
     <title>Codeflix</title>
   </head>
   <body class="main__container">
     <header class="header">
       <div class="header__logo">
-        <img src="assets/app/codeflix.png" alt="Logo" title="Logo Codeflix" />
+        <a href="index.html"
+          ><img src="assets/app/codeflix.png" alt="Logo" title="Logo Codeflix"
+        /></a>
       </div>
       <nav class="header__nav">
         <ul class="header__list">
@@ -70,13 +79,34 @@
 
       <section class="shows">
         <!-- SERIES -->
-        <section class="">
+        <section class="series">
           <h2>newest</h2>
-          <ul>
+          <ul class="shows__list">
             <li>
               <figure>
-                <img src="" alt="" />
+                <img src="assets/series/serie_1.jpg" alt="spy masters" />
                 <figcaption>Spy Masters</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <figure>
+                <img src="assets/series/serie_2.jpg" alt="house of dragon" />
+                <figcaption>house of dragon</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <figure>
+                <img src="assets/series/serie_3.jpg" alt="love & death" />
+                <figcaption>love & death</figcaption>
+              </figure>
+            </li>
+
+            <li>
+              <figure>
+                <img src="assets/series/serie_4.jpg" alt="succession" />
+                <figcaption>succession</figcaption>
               </figure>
             </li>
           </ul>
